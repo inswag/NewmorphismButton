@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NewStyleButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULd-qH-NQb">
+                                <rect key="frame" x="132" y="425.5" width="150" height="45"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.51764705882352935" blue="0.51764705882352935" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="COn-4B-Bjv"/>
+                                    <constraint firstAttribute="width" constant="150" id="Lbg-tb-5A2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="버튼 타이틀">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udh-M9-jvX">
+                                <rect key="frame" x="132" y="495.5" width="150" height="45"/>
+                                <color key="backgroundColor" red="0.62352941176470589" green="0.76078431372549016" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="f0B-c7-mHe"/>
+                                    <constraint firstAttribute="width" constant="150" id="ug1-3c-wxA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="버튼 타이틀">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghg-v9-iz3">
+                                <rect key="frame" x="24" y="74" width="366" height="45"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="J6N-zm-2XT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="근무 시간 추가">
+                                    <color key="titleColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="22.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="udh-M9-jvX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2NP-td-G5m"/>
+                            <constraint firstItem="ULd-qH-NQb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B0n-nq-jxr"/>
+                            <constraint firstItem="ghg-v9-iz3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="G9z-Pl-68u"/>
+                            <constraint firstItem="ghg-v9-iz3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="KHe-dn-ebA"/>
+                            <constraint firstItem="udh-M9-jvX" firstAttribute="top" secondItem="ULd-qH-NQb" secondAttribute="bottom" constant="25" id="VHv-P8-ipq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ghg-v9-iz3" secondAttribute="trailing" constant="24" id="W0y-WG-rCw"/>
+                            <constraint firstItem="ULd-qH-NQb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sP6-cm-28M"/>
+                            <constraint firstItem="ghg-v9-iz3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t6X-Da-Vfg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="ULd-qH-NQb" id="F5d-rp-Iog"/>
+                        <outlet property="gradientTestButton" destination="ghg-v9-iz3" id="I9t-qr-3Ng"/>
+                        <outlet property="secondButton" destination="udh-M9-jvX" id="Vlh-Up-Gyg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1213" y="-31"/>
+        </scene>
+    </scenes>
+</document>
